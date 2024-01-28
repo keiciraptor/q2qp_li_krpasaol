@@ -15,6 +15,7 @@
 * .abtus{
     background-color: #f8f7f4;
 }
+/*part ng banner*/
 #vidbg{
     width: 100vw;
     height: 100vh;
@@ -23,6 +24,7 @@
     top: 0;
     z-index: -1;
 }
+/*header*/
 header nav{
     display: flex;
     background-color: #bd9478;
@@ -45,6 +47,33 @@ nav a{
 .links a{
     margin-left: 1vw;
 }
+.links a:hover{
+    color: #745e4d;
+    transition: 0.5s;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+.icon{
+    background: url(../images/sprite3.png) no-repeat;
+    width: 66px;
+    height: 66px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#fb{
+    background-position: -439px -146px;
+}
+#twt{
+    background-position: -66px -72px;
+}
+#ig{
+    background-position: -290px -221px;
+}
+/*page1*/
 .banner{
     display: flex;
     font-family: 'Noto Sans', sans-serif;
@@ -101,3 +130,76 @@ nav a{
     font-size: larger;
     margin: 20px;
 }
+#img1 img{
+    float: left;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+#img2 img{
+    float: right;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #ddc1a7;
+    border-radius: 5px;
+    height: 30vh;
+    width: 80vw;
+    margin-left: 150px;
+    margin-bottom: 5vw;
+}
+.box3 p{
+    font-size: larger;
+    margin: 20px;
+}
+/*page2*/
+.wwdintro{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.camera{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.camera img{
+    width: 750px;
+    height: 500px;
+}
+.camera img:hover{
+    content: url(/images/camclick.png);
+    transition: 0.1s;
+}
+/*page3*/
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-text h1{
+    color: white;
+    font-family: 'Noto Sans', serif;
+    text-align: center;
+    font-size: 50pt;
+}
+article{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.content-text{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+.acts{
+    margin-bottom: 10vw;
+}
+/*page4*/
+
